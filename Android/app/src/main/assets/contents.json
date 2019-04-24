@@ -4,7 +4,7 @@
   "sticker_packs": [
     {
       "identifier": "1",
-      "name": "STNG",
+      "name": "STING",
       "publisher": "Fhantom",
       "tray_image_file": "tray.png",
       "publisher_email": "",
@@ -94,6 +94,106 @@
         },
         {
           "image_file": "ok.webp",
+          "emojis": []
+        }
+      ]
+    },
+    {
+      "identifier": "2",
+      "name": "Awrudu",
+      "publisher": "Fhantom",
+      "tray_image_file": "tray.png",
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01-01.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "02-01.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "03-01.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "04-01.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "05-01.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "06-01.webp",
+          "emojis": []
+        }
+      ]
+    },
+    {
+      "identifier": "3",
+      "name": "Cricket",
+      "publisher": "Fhantom",
+      "tray_image_file": "tray.png",
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "8-01.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "9-01.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "12-01.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "13-01.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "14-01.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "16-01.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "17-01.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "18-01.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "19-01.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "20-01.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "21-01.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "22-01.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "23-01.webp",
           "emojis": []
         }
       ]
