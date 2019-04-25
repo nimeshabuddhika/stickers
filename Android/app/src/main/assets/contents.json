@@ -4,8 +4,8 @@
   "sticker_packs": [
     {
       "identifier": "1",
-      "name": "STING",
-      "publisher": "Fhantom",
+      "name": "Sting Whatsapp Stickers",
+      "publisher": "Brainart International",
       "tray_image_file": "tray.png",
       "publisher_email": "",
       "publisher_website": "",
@@ -100,8 +100,8 @@
     },
     {
       "identifier": "2",
-      "name": "Awrudu",
-      "publisher": "Fhantom",
+      "name": "Awrudu Whatsapp Stickers",
+      "publisher": "Brainart International",
       "tray_image_file": "tray.png",
       "publisher_email": "",
       "publisher_website": "",
@@ -136,8 +136,8 @@
     },
     {
       "identifier": "3",
-      "name": "Cricket",
-      "publisher": "Fhantom",
+      "name": "Cricket Whatsapp Stickers",
+      "publisher": "Brainart International",
       "tray_image_file": "tray.png",
       "publisher_email": "",
       "publisher_website": "",
