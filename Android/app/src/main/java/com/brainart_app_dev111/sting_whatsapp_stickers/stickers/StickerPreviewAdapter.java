@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.fhantom.whatsapp.stickers;
+package com.brainart_app_dev111.sting_whatsapp_stickers.stickers;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;

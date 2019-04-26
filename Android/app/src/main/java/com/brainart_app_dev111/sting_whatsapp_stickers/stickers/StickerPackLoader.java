@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.fhantom.whatsapp.stickers;
+package com.brainart_app_dev111.sting_whatsapp_stickers.stickers;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -22,18 +22,18 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
-import static com.fhantom.whatsapp.stickers.StickerContentProvider.ANDROID_APP_DOWNLOAD_LINK_IN_QUERY;
-import static com.fhantom.whatsapp.stickers.StickerContentProvider.IOS_APP_DOWNLOAD_LINK_IN_QUERY;
-import static com.fhantom.whatsapp.stickers.StickerContentProvider.LICENSE_AGREENMENT_WEBSITE;
-import static com.fhantom.whatsapp.stickers.StickerContentProvider.PRIVACY_POLICY_WEBSITE;
-import static com.fhantom.whatsapp.stickers.StickerContentProvider.PUBLISHER_EMAIL;
-import static com.fhantom.whatsapp.stickers.StickerContentProvider.PUBLISHER_WEBSITE;
-import static com.fhantom.whatsapp.stickers.StickerContentProvider.STICKER_FILE_EMOJI_IN_QUERY;
-import static com.fhantom.whatsapp.stickers.StickerContentProvider.STICKER_FILE_NAME_IN_QUERY;
-import static com.fhantom.whatsapp.stickers.StickerContentProvider.STICKER_PACK_ICON_IN_QUERY;
-import static com.fhantom.whatsapp.stickers.StickerContentProvider.STICKER_PACK_IDENTIFIER_IN_QUERY;
-import static com.fhantom.whatsapp.stickers.StickerContentProvider.STICKER_PACK_NAME_IN_QUERY;
-import static com.fhantom.whatsapp.stickers.StickerContentProvider.STICKER_PACK_PUBLISHER_IN_QUERY;
+import static com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerContentProvider.ANDROID_APP_DOWNLOAD_LINK_IN_QUERY;
+import static com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerContentProvider.IOS_APP_DOWNLOAD_LINK_IN_QUERY;
+import static com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerContentProvider.LICENSE_AGREENMENT_WEBSITE;
+import static com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerContentProvider.PRIVACY_POLICY_WEBSITE;
+import static com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerContentProvider.PUBLISHER_EMAIL;
+import static com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerContentProvider.PUBLISHER_WEBSITE;
+import static com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerContentProvider.STICKER_FILE_EMOJI_IN_QUERY;
+import static com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerContentProvider.STICKER_FILE_NAME_IN_QUERY;
+import static com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerContentProvider.STICKER_PACK_ICON_IN_QUERY;
+import static com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerContentProvider.STICKER_PACK_IDENTIFIER_IN_QUERY;
+import static com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerContentProvider.STICKER_PACK_NAME_IN_QUERY;
+import static com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerContentProvider.STICKER_PACK_PUBLISHER_IN_QUERY;
 
 public class StickerPackLoader {
 

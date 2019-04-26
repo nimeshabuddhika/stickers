@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.fhantom.whatsapp.stickers">
+    package="com.brainart_app_dev111.sting_whatsapp_stickers.stickers">
 
     <application
-        android:name=".StickerApplication"
+        android:name="com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerApplication"
         android:allowBackup="false"
         android:fullBackupContent="false"
         android:icon="@drawable/sting_logo"
@@ -13,9 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".EntryActivity"></activity>
+        <activity android:name="com.brainart_app_dev111.sting_whatsapp_stickers.stickers.EntryActivity"></activity>
         <activity
-            android:name=".SplashActivity"
+            android:name="com.brainart_app_dev111.sting_whatsapp_stickers.stickers.SplashActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,27 +23,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StickerPackListActivity" />
+        <activity android:name="com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerPackListActivity" />
         <activity
-            android:name=".StickerPackDetailsActivity"
-            android:parentActivityName=".StickerPackListActivity"
+            android:name="com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerPackDetailsActivity"
+            android:parentActivityName="com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerPackListActivity"
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.fhantom.whatsapp.stickers.StickerPackListActivity" />
+                android:value="com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerPackListActivity" />
         </activity>
         <activity
-            android:name=".StickerPackInfoActivity"
+            android:name="com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerPackInfoActivity"
             android:label="@string/title_activity_sticker_pack_info"
-            android:parentActivityName=".StickerPackDetailsActivity"
+            android:parentActivityName="com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerPackDetailsActivity"
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.fhantom.whatsapp.stickers.StickerPackDetailsActivity" />
+                android:value="com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerPackDetailsActivity" />
         </activity>
 
         <provider
-            android:name=".StickerContentProvider"
+            android:name="com.brainart_app_dev111.sting_whatsapp_stickers.stickers.StickerContentProvider"
             android:authorities="${contentProviderAuthority}"
             android:enabled="true"
             android:exported="true"

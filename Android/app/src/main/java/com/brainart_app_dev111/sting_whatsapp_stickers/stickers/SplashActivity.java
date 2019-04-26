@@ -1,4 +1,4 @@
-package com.fhantom.whatsapp.stickers;
+package com.brainart_app_dev111.sting_whatsapp_stickers.stickers;
 
 import android.content.Intent;
 import android.os.Handler;

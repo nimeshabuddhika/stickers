@@ -7,7 +7,7 @@ android {
     }
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.fhantom.whatsapp.stickers"
+        applicationId "com.brainart_app_dev111.sting_whatsapp_stickers.stickers"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
